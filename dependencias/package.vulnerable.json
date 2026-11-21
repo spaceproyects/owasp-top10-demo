@@ -1,0 +1,10 @@
+{
+  "name": "tienda-vulnerable-ejemplo",
+  "description": "A03 - Ejemplo de MALA gestión de dependencias: versiones sin fijar y sin package-lock.json. Cada 'npm install' puede traer un paquete distinto, incluso uno comprometido.",
+  "dependencies": {
+    "express": "*",
+    "lodash": "latest",
+    "jsonwebtoken": "^8.0.0",
+    "event-stream": "^3.3.4"
+  }
+}

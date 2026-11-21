@@ -1,0 +1,18 @@
+{
+  "name": "owasp-top10-demo",
+  "version": "1.0.0",
+  "description": "Demo del OWASP Top 10:2025: la misma tienda en versión vulnerable y versión segura.",
+  "private": true,
+  "license": "MIT",
+  "engines": {
+    "node": ">=22.13"
+  },
+  "scripts": {
+    "vulnerable": "node vulnerable/app.js",
+    "seguro": "node seguro/app.js",
+    "ataque": "node demo/atacar.js"
+  },
+  "dependencies": {
+    "express": "4.21.2"
+  }
+}
